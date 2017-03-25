@@ -1,0 +1,14 @@
+{
+    "name": "fran/dibuhazoh",
+    "description": "Series de dibujos de los 90, 80, 70...",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dibuhazoh\\": "src/Dibuhazoh"
+        }
+    }
+}

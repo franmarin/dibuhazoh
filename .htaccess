@@ -1,0 +1,5 @@
+<FilesMatch "\.(htaccess|gitignore|csv|vendor|composer.*)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+Options -Indexes
